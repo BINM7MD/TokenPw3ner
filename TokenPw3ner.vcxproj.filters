@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{3c840a90-f54c-4c62-8a94-1b52d30c41e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\header">
+      <UniqueIdentifier>{c809942b-e792-4a2e-9d62-fe47f37a9076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\discord">
+      <UniqueIdentifier>{c358aeae-2e98-4eeb-8468-2ed653d01afc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="discord.cpp">
+      <Filter>src\discord</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Memory.h">
+      <Filter>src\header</Filter>
+    </ClInclude>
+    <ClInclude Include="discord.hpp">
+      <Filter>src\discord</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
